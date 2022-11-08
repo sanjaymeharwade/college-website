@@ -1,0 +1,198 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: "Poppins", Arial, sans-serif;
+
+}
+
+.bgBark {
+    background-color: #202020 !important;
+}
+
+.searchform {
+    height: 54px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    border-radius: 30px;
+}
+
+.searchform .form-control {
+    width: calc(100% - 52px);
+    border: none;
+    background: transparent !important;
+    color: rgba(255, 255, 255, 0.7) !important;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.searchform .form-control::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.searchform .form-control::-moz-placeholder {
+    /* Firefox 19+ */
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.searchform .form-control:-ms-input-plac255h255l255er {
+    /* IE 0+ */
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.searchform .form-control:-moz-placeholder {
+    /* Firefox 18- */
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.searchform .search {
+    width: 52px;
+    height: 52px;
+}
+
+.searchform .search span {
+    font-size: 20px;
+}
+
+
+.pb-4,
+.py-4 {
+    padding-bottom: 1.5rem !important;
+}
+
+.pt-4,
+.py-4 {
+    padding-top: 1.5rem !important;
+}
+.banner img {
+    width: 100%;
+    position: absolute;
+}
+
+.backdrop {
+
+    height: 60vw;
+}
+
+.backdrop-contents {
+    position: relative;
+    color: white;
+    font-weight: bolder;
+}
+
+.backdrop-contents h1 {
+    font-size: 50px;
+    -webkit-animation: pulsate 3s ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+
+}
+
+
+.headertext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+}
+
+.btn.btn-primary {
+    background: #fd5f00;
+    border: 1px solid #fd5f00;
+    color: #fff;
+    border-radius: 20px;
+    font-weight: 200;
+    width: 158px;
+    font-size: 18px;
+    height: 40px;
+}
+
+.university {
+    font-size: 10px;
+}
+
+.navbar-brand {
+    font-weight: 900;
+    font-size: 48px;
+    padding: 0;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+a.navbar-brand.logo {
+    font-size: 40px;
+}
+
+.headertext p {
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.heading {
+    margin-left: 12rem;
+}
+
+.img1 {
+    overflow: hidden;
+}
+
+
+.card-body.text-center {
+    padding: 60px;
+
+}
+
+.orang {
+    background: #fe6103;
+}
+
+.orangf {
+    color: #fe6103;
+    margin: 10px;
+}
+
+.dark {
+    background: #0d1128;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.card {
+    border: none !important;
+}
+
+span.material-symbols-outlined.icons {
+    font-size: 70px;
+}
+
+
+@media all and (max-width: 1080px) {
+    .backdrop {
+        height: 73vw;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .section {
+        flex-wrap: wrap;
+    }
+
+    .row.d-flex {
+        margin-bottom: 13px;
+    }
+    .heading {
+        margin-left: 5rem;
+    }
+}
